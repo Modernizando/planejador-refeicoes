@@ -1,0 +1,91 @@
+[
+    {
+        "nome": "Frango Grelhado com Batata",
+        "tipo": [
+            "almoco"
+        ],
+        "ingredientes": [
+            "150g de frango",
+            "1 batata média (~150g)",
+            "1 colher de sopa de azeite",
+            "sal a gosto"
+        ],
+        "restricoes": [
+            "comum",
+            "lowcarb"
+        ],
+        "modo_preparo": "Tempere o frango com sal e grelhe. Cozinhe ou asse a batata com azeite e sal até dourar.",
+        "calorias": 490
+    },
+    {
+        "nome": "Omelete Simples",
+        "tipo": [
+            "cafe",
+            "jantar"
+        ],
+        "ingredientes": [
+            "2 ovos",
+            "30g de queijo",
+            "sal a gosto",
+            "orégano a gosto"
+        ],
+        "restricoes": [
+            "comum",
+            "lowcarb"
+        ],
+        "modo_preparo": "Bata os ovos com sal e orégano. Aqueça uma frigideira, adicione os ovos e o queijo e cozinhe até firmar.",
+        "calorias": 240
+    },
+    {
+        "nome": "Arroz, Feijão e Bife",
+        "tipo": [
+            "almoco"
+        ],
+        "ingredientes": [
+            "100g de arroz cozido",
+            "100g de feijão cozido",
+            "120g de bife bovino",
+            "sal a gosto"
+        ],
+        "restricoes": [
+            "comum"
+        ],
+        "modo_preparo": "Cozinhe o arroz com alho e sal. Cozinhe o feijão na pressão e refogue. Grelhe o bife com sal a gosto.",
+        "calorias": 460
+    },
+    {
+        "nome": "Cuscuz com Ovo",
+        "tipo": [
+            "cafe"
+        ],
+        "ingredientes": [
+            "1/2 xícara de flocão de milho",
+            "1 ovo",
+            "1 colher de chá de azeite",
+            "sal a gosto"
+        ],
+        "restricoes": [
+            "comum",
+            "vegetariana"
+        ],
+        "modo_preparo": "Hidrate o cuscuz com água e sal por 10 min. Cozinhe no cuscuzeiro e sirva com ovo frito.",
+        "calorias": 220
+    },
+    {
+        "nome": "Macarrão com Molho de Carne",
+        "tipo": [
+            "almoco"
+        ],
+        "ingredientes": [
+            "100g de macarrão",
+            "80g de carne moída",
+            "1/4 de cebola picada",
+            "3 colheres de sopa de molho de tomate"
+        ],
+        "restricoes": [
+            "comum"
+        ],
+        "modo_preparo": "Cozinhe o macarrão. Refogue carne com cebola, adicione molho de tomate. Misture tudo e sirva.",
+        "calorias": 370
+    }
+]
