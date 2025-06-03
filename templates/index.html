@@ -1,1 +1,40 @@
-<html><body>Index</body></html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Planejador de Refeições</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-green-50 text-gray-800 min-h-screen flex items-center justify-center p-4">
+    <div class="bg-white shadow-lg rounded-2xl p-6 w-full max-w-xl">
+        <h1 class="text-xl sm:text-2xl font-bold mb-4 text-center text-green-700">Monte seu Cardápio Saudável 🥦</h1>
+        <form action="/gerar" method="post" class="space-y-4 text-sm sm:text-base">
+            <div>
+                <label class="block font-medium">Tipo de dieta:</label>
+                <select name="dieta" class="w-full border rounded p-2">
+                    <option value="comum">Comum</option>
+                    <option value="vegetariana">Vegetariana</option>
+                    <option value="lowcarb">Low Carb</option>
+                    <option value="pescetariana">Pescetariana</option>
+                </select>
+            </div>
+            <div>
+                <label class="block font-medium">Número de pessoas:</label>
+                <input type="number" name="pessoas" min="1" value="1" class="w-full border rounded p-2">
+            </div>
+            <div>
+                <label class="block font-medium">Refeições do dia:</label>
+                <div class="flex flex-col gap-1 mt-1">
+                    <label><input type="checkbox" name="refeicoes" value="cafe" checked> Café da manhã</label>
+                    <label><input type="checkbox" name="refeicoes" value="almoco" checked> Almoço</label>
+                    <label><input type="checkbox" name="refeicoes" value="jantar" checked> Jantar</label>
+                </div>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">Gerar cardápio</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

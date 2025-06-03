@@ -1,1 +1,40 @@
-<html><body>Resultado</body></html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cardápio da Semana</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-green-50 text-gray-800 min-h-screen p-4">
+    <div class="max-w-4xl mx-auto">
+        <h1 class="text-2xl sm:text-3xl font-bold text-center text-green-700 mb-6">🍽️ Seu Cardápio da Semana</h1>
+
+        <form method="post" action="/lista_compras" class="text-center mb-6">
+            <input type="hidden" name="cardapio" value='{{ cardapio | tojson }}'>
+            <input type="hidden" name="pessoas" value='{{ pessoas }}'>
+            <button type="submit" class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 text-sm sm:text-base">
+                🛒 Gerar Lista de Compras
+            </button>
+        </form>
+
+        {% for dia, refeicoes in cardapio.items() %}
+            <div class="bg-white shadow-md rounded-xl p-4 mb-6">
+                <h2 class="text-lg sm:text-xl font-semibold mb-2 text-green-600">Dia {{ dia }}</h2>
+                <ul class="space-y-4 text-sm sm:text-base">
+                    {% for tipo, receita in refeicoes.items() %}
+                        <li class="border-l-4 border-green-500 pl-4">
+                            <strong>{{ tipo.title() }}:</strong> {{ receita['nome'] }}<br>
+                            <span class="text-gray-600 block">Ingredientes: {{ ", ".join(receita['ingredientes']) }}</span>
+                            <span class="text-gray-700 block mt-1"><strong>Modo de preparo:</strong> {{ receita['modo_preparo'] }}</span>
+                            {% if receita['calorias'] %}
+                                <span class="text-orange-600 block mt-1 font-semibold">Calorias: {{ receita['calorias'] }} kcal</span>
+                            {% endif %}
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        {% endfor %}
+    </div>
+</body>
+</html>
