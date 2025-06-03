@@ -1,1 +1,111 @@
-[]
+[
+    {
+        "nome": "Frango Grelhado com Batata",
+        "tipo": [
+            "almoco"
+        ],
+        "ingredientes": [
+            "150g de frango",
+            "1 batata média (~150g)",
+            "1 colher de sopa de azeite",
+            "sal a gosto"
+        ],
+        "modo_preparo": "Tempere o frango com sal e grelhe. Cozinhe ou asse a batata com azeite e sal até dourar.",
+        "restricoes": [
+            "comum",
+            "lowcarb"
+        ],
+        "calorias": 490
+    },
+    {
+        "nome": "Omelete com Queijo",
+        "tipo": [
+            "cafe",
+            "jantar"
+        ],
+        "ingredientes": [
+            "2 ovos",
+            "30g de queijo",
+            "sal a gosto",
+            "orégano a gosto"
+        ],
+        "modo_preparo": "Bata os ovos, misture o queijo e tempere. Frite até dourar dos dois lados.",
+        "restricoes": [
+            "comum",
+            "lowcarb"
+        ],
+        "calorias": 240
+    },
+    {
+        "nome": "Arroz, Feijão e Bife",
+        "tipo": [
+            "almoco"
+        ],
+        "ingredientes": [
+            "100g de arroz",
+            "100g de feijão",
+            "120g de bife bovino",
+            "sal a gosto"
+        ],
+        "modo_preparo": "Cozinhe o arroz e o feijão. Grelhe o bife com sal a gosto.",
+        "restricoes": [
+            "comum"
+        ],
+        "calorias": 460
+    },
+    {
+        "nome": "Macarrão com Molho de Carne",
+        "tipo": [
+            "almoco"
+        ],
+        "ingredientes": [
+            "100g de macarrão",
+            "80g de carne moída",
+            "3 colheres de sopa de molho de tomate",
+            "1/4 cebola"
+        ],
+        "modo_preparo": "Cozinhe o macarrão. Refogue a carne com cebola e molho de tomate. Misture e sirva.",
+        "restricoes": [
+            "comum"
+        ],
+        "calorias": 420
+    },
+    {
+        "nome": "Cuscuz com Ovo",
+        "tipo": [
+            "cafe"
+        ],
+        "ingredientes": [
+            "1/2 xícara de flocão de milho",
+            "1 ovo",
+            "sal a gosto",
+            "1 colher de chá de azeite"
+        ],
+        "modo_preparo": "Hidrate o flocão com sal. Cozinhe no cuscuzeiro e sirva com ovo frito.",
+        "restricoes": [
+            "comum",
+            "vegetariana"
+        ],
+        "calorias": 270
+    },
+    {
+        "nome": "Salada com Atum",
+        "tipo": [
+            "jantar"
+        ],
+        "ingredientes": [
+            "1 lata de atum",
+            "1 tomate",
+            "alface a gosto",
+            "1 colher de sopa de azeite",
+            "sal a gosto"
+        ],
+        "modo_preparo": "Misture tudo e sirva gelado.",
+        "restricoes": [
+            "comum",
+            "pescetariana",
+            "lowcarb"
+        ],
+        "calorias": 220
+    }
+]
