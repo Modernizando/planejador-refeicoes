@@ -1,0 +1,151 @@
+[
+    {
+        "nome": "Sanduíche de Ovo Invertido 🔄",
+        "tipo": [
+            "cafe",
+            "jantar"
+        ],
+        "ingredientes": [
+            "2 ovos",
+            "2 fatias de pão",
+            "1 fatia de queijo",
+            "1 colher de chá de manteiga",
+            "sal a gosto"
+        ],
+        "modo_preparo": "Bata os ovos e frite. Coloque as fatias de pão sobre os ovos ainda crus, vire tudo, recheie com queijo e dobre como um sanduíche.",
+        "restricoes": [
+            "comum",
+            "lowcarb"
+        ],
+        "calorias": 320
+    },
+    {
+        "nome": "Macarrão Feta Estourado 🍅",
+        "tipo": [
+            "almoco",
+            "jantar"
+        ],
+        "ingredientes": [
+            "1 xícara de macarrão",
+            "150g de queijo feta",
+            "10 tomates-cereja",
+            "1 colher de sopa de azeite",
+            "orégano"
+        ],
+        "modo_preparo": "Asse os tomates e o queijo com azeite e orégano por 25min. Misture com o macarrão cozido.",
+        "restricoes": [
+            "comum",
+            "vegetariana"
+        ],
+        "calorias": 470
+    },
+    {
+        "nome": "Wrap de Frango Crocante 🐔",
+        "tipo": [
+            "almoco",
+            "jantar"
+        ],
+        "ingredientes": [
+            "1 tortilha",
+            "80g de frango desfiado",
+            "1 colher de sopa de cream cheese",
+            "30g de queijo mussarela"
+        ],
+        "modo_preparo": "Misture o frango com o cream cheese, coloque na tortilha com queijo e sele na frigideira até dourar.",
+        "restricoes": [
+            "comum"
+        ],
+        "calorias": 410
+    },
+    {
+        "nome": "Café Gelado Estiloso ☕❄️",
+        "tipo": [
+            "cafe"
+        ],
+        "ingredientes": [
+            "100ml de café forte",
+            "100ml de leite",
+            "1 colher de chá de açúcar",
+            "cubos de gelo"
+        ],
+        "modo_preparo": "Bata tudo no mixer ou coqueteleira e sirva num copo bonito. Finalize com canela ou chantilly.",
+        "restricoes": [
+            "comum",
+            "vegetariana"
+        ],
+        "calorias": 120
+    },
+    {
+        "nome": "Arroz com Frango Airfryer 🔥",
+        "tipo": [
+            "almoco"
+        ],
+        "ingredientes": [
+            "1 filé de frango",
+            "1/2 xícara de arroz cozido",
+            "1 colher de sopa de cebola picada",
+            "tempero verde",
+            "azeite"
+        ],
+        "modo_preparo": "Misture tudo, coloque na Airfryer por 15min a 180°C e finalize com cheiro-verde.",
+        "restricoes": [
+            "comum"
+        ],
+        "calorias": 390
+    },
+    {
+        "nome": "Panqueca de Banana Proteica 🍌💪",
+        "tipo": [
+            "cafe"
+        ],
+        "ingredientes": [
+            "1 banana",
+            "1 ovo",
+            "2 colheres de sopa de aveia",
+            "canela a gosto"
+        ],
+        "modo_preparo": "Amasse a banana, misture com ovo e aveia, frite como panquecas pequenas e polvilhe canela.",
+        "restricoes": [
+            "comum",
+            "vegetariana"
+        ],
+        "calorias": 240
+    },
+    {
+        "nome": "Batata Recheada Explosiva 🧀🥔",
+        "tipo": [
+            "jantar"
+        ],
+        "ingredientes": [
+            "1 batata média",
+            "2 colheres de sopa de requeijão",
+            "30g de bacon",
+            "queijo ralado"
+        ],
+        "modo_preparo": "Cozinhe a batata, corte e recheie com requeijão, bacon frito e queijo. Leve ao forno para gratinar.",
+        "restricoes": [
+            "comum"
+        ],
+        "calorias": 430
+    },
+    {
+        "nome": "Brusqueta da Influencer 🍞🍅",
+        "tipo": [
+            "jantar",
+            "cafe"
+        ],
+        "ingredientes": [
+            "2 fatias de pão italiano",
+            "1 tomate picado",
+            "azeite",
+            "manjericão",
+            "alho"
+        ],
+        "modo_preparo": "Toste o pão com alho, cubra com tomate temperado e manjericão, regue com azeite.",
+        "restricoes": [
+            "vegetariana",
+            "comum"
+        ],
+        "calorias": 310
+    }
+]
